@@ -93,7 +93,7 @@ void ofApp::draw(){
     ofDrawLine(pos.x+20, pos.y+40, pos.x+20, pos.y+60);
     
     
-    
+    glm::vec3 vec = ofVec3f(0,1);
     
 
 }
