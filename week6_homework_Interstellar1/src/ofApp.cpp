@@ -34,6 +34,8 @@ void ofApp::update(){
         if (distance > 0) {
             
             glm::vec2 normalizedDir = dir / distance;
+            
+            
             if (distance < 300) {
                 
                 repulsion = -normalizedDir;

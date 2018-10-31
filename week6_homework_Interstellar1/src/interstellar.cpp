@@ -53,6 +53,7 @@ void Intersellar::update(){
     
     acc *= 0;
     
+    
 }
 
 void Intersellar::draw(float cl){
